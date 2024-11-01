@@ -1,6 +1,6 @@
 import React from 'react';
 import RNPickerSelect from 'react-native-picker-select';
-import {Alert, Button, Image, ScrollView, Text, TextInput, ToastAndroid, TouchableOpacity, View} from 'react-native';
+import {Alert, Button, Image, ScrollView, Text, TextInput} from 'react-native';
 
 const MyApp = () => {
     // const [answers, setAnswers] = React.useState('');
@@ -70,7 +70,7 @@ const MyApp = () => {
                 let score = 0;
                 let message = '';
 
-                if (name1 === correctAns1) {
+                if (name1 === CorrectAns1) {
                     score += 1;
                     num += 1;
                 }
