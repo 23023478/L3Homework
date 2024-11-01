@@ -31,7 +31,7 @@ const MyApp = () => {
             <Image source={require('./img/bee.jpg')}/>
             <Text>Q1) What animal is this?</Text>
             <RNPickerSelect
-                onValueChange={(value) => setName(value)}
+                onValueChange={(value) => setName1(value)}
                 items={[
                     {label: 'deer', value: 'deer'},
                     {label: 'bee', value: 'bee'},
@@ -42,7 +42,7 @@ const MyApp = () => {
             <Image source={require('./img/leopard.jpg')}/>
             <Text>Q2) What animal is this?</Text>
             <RNPickerSelect
-                onValueChange={(value) => console.log(value)}
+                onValueChange={(value) => setName2(value)}
                 items={[
                     {label: 'leopard', value: 'leopard'},
                     {label: 'peacock', value: 'peacock'},
@@ -53,7 +53,7 @@ const MyApp = () => {
             <Image source={require('./img/penguin.jpg')}/>
             <Text>Q3) What animal is this?</Text>
             <RNPickerSelect
-                onValueChange={(value) => console.log(value)}
+                onValueChange={(value) => setName3(value)}
                 items={[
                     {label: 'penguin', value: 'penguin'},
                     {label: 'zebra', value: 'zebra'},
